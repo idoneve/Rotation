@@ -152,7 +152,7 @@ struct Rotation {
     }
 };
 
-int main(int argc, char const *argv[]) {
+int main(int argc, char const *argv[]) { // To Run: clang++ -std=c++20 rotation.cc $(sdl2-config --cflags --libs)
     Rotation *r = new Rotation();
     Shape shape = Circle;
 
